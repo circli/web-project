@@ -1,0 +1,44 @@
+{
+    "name": "circli/project-base",
+    "type": "project",
+    "description": "Base site project",
+    "keywords": [],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@oak-valley.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.0",
+        "monolog/monolog": "^1.23",
+        "php-di/php-di": "^6.0",
+        "circli/installer": "@dev",
+        "circli/event-dispatcher": "^2.0",
+        "circli/contracts": "dev-master",
+        "circli/middlewares": "dev-master",
+        "circli/web-core": "@dev",
+        "circli/template-extension": "@dev",
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "middlewares/whoops": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "scripts": {
+        "dev": "php -S 'localhost:9002' -t public/ public/index.php"
+    },
+    "repositories": {
+        "cookie":{
+            "url": "https://github.com/sunkan/PHP-Cookie.git",
+            "type": "git"
+        }
+    }
+}

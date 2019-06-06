@@ -1,0 +1,25 @@
+.idea/
+.DS_Store
+
+### Composer ###
+composer.phar
+vendor/
+
+.php_cs.cache
+
+tmp/
+
+# don't add your local config changes
+config/local.php
+config/production.php
+
+extensions/
+modules/
+
+node_modules/
+
+config/circli/*
+config/assets.php
+config/available-configs.php
+config/extensions.php
+config/modules.php

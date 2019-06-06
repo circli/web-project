@@ -1,0 +1,7 @@
+{
+  "name": "DONT USE THIS.",
+  "homepage": "ONLY HERE TO MAKE GULP SCRIPT PLAY NICE",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}

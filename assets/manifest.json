@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "index.js": {
+      "files": [
+        "scripts/src/index.js"
+      ]
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true,
+      "vendor": []
+    },
+    "svg": {
+      "files": [
+        "svg/**/*"
+      ]
+    },
+    "images": {
+      "files": [
+        "images/**/*"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://{dev url here}"
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": "public/assets/"
+  }
+}
